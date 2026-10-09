@@ -1,0 +1,62 @@
+{
+  "cap_annual": 60000,
+  "earned_ytd": 18450,
+  "earned_this_month": 3200,
+  "cap_pct": 0.3075,
+  "projected_cap_date": "2026-08-14",
+  "signed_clients": [
+    {
+      "name": "William Hartwell",
+      "signed_date": "2025-09-15",
+      "property": "18 Round Hill Rd, Greenwich CT 06831",
+      "management_fee_annual": 21600,
+      "platform_fee": 2160,
+      "platform_fee_pct": 0.1,
+      "source": "platform",
+      "month_billed": "September 2025"
+    },
+    {
+      "name": "Catherine Aldridge",
+      "signed_date": "2025-06-01",
+      "property": "45 Tokeneke Rd, Darien CT 06820",
+      "management_fee_annual": 7200,
+      "platform_fee": 720,
+      "platform_fee_pct": 0.1,
+      "source": "platform",
+      "month_billed": "June 2025"
+    },
+    {
+      "name": "Robert Pemberton",
+      "signed_date": "2025-03-10",
+      "property": "7 Old Farm Rd, New Canaan CT 06840",
+      "management_fee_annual": 43200,
+      "platform_fee": 4320,
+      "platform_fee_pct": 0.1,
+      "source": "platform",
+      "month_billed": "March 2025"
+    }
+  ],
+  "billing_summary_month": "June 2026",
+  "billing_this_month": [
+    {
+      "name": "William Hartwell",
+      "property": "18 Round Hill Rd, Greenwich CT 06831",
+      "management_fee_monthly": 1800,
+      "management_fee_annual": 21600,
+      "platform_fee_owed": 2160,
+      "platform_fee_pct": 0.1,
+      "source": "platform",
+      "status": "invoiced"
+    },
+    {
+      "name": "Robert Pemberton",
+      "property": "7 Old Farm Rd, New Canaan CT 06840",
+      "management_fee_monthly": 3600,
+      "management_fee_annual": 43200,
+      "platform_fee_owed": 4320,
+      "platform_fee_pct": 0.1,
+      "source": "platform",
+      "status": "invoiced"
+    }
+  ]
+}

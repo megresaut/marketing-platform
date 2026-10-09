@@ -1,0 +1,45 @@
+{
+  "score_tiers": [
+    {
+      "label": "90\u2013100 (Top Priority)",
+      "count": 8,
+      "open_rate": 0.42,
+      "reply_rate": 0.17,
+      "conversion_rate": 0.04,
+      "color": "#1F3D5C"
+    },
+    {
+      "label": "80\u201389 (High Priority)",
+      "count": 14,
+      "open_rate": 0.35,
+      "reply_rate": 0.11,
+      "conversion_rate": 0.025,
+      "color": "#2D6B43"
+    },
+    {
+      "label": "70\u201379 (Manual Queue)",
+      "count": 18,
+      "open_rate": 0.28,
+      "reply_rate": 0.07,
+      "conversion_rate": 0.012,
+      "color": "#A6802E"
+    },
+    {
+      "label": "< 70 (Automated)",
+      "count": 4,
+      "open_rate": 0.18,
+      "reply_rate": 0.028,
+      "conversion_rate": 0.004,
+      "color": "#8A8A85"
+    }
+  ],
+  "summary": {
+    "total_emails_sent": 247,
+    "total_opens": 74,
+    "total_replies": 23,
+    "total_conversions": 5,
+    "avg_open_rate": 0.3,
+    "avg_reply_rate": 0.093,
+    "platform_vs_manual_conversion_ratio": 2.3
+  }
+}

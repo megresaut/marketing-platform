@@ -1,0 +1,2143 @@
+[
+  {
+    "id": "sl001",
+    "label": "SEEDED_LEAD_001",
+    "address": "9 Compo Beach Rd, Westport CT 06880",
+    "city": "Westport",
+    "state": "CT",
+    "zip": "06880",
+    "sale_price": 4200000,
+    "sale_date": "2026-02-09",
+    "buyer_name": "Michael Jefferson",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "3 Locust Lane, Chatham NJ 07928",
+    "score": 70,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2010,
+      "sqft": 5784,
+      "bedrooms": 7,
+      "bathrooms": 4.5,
+      "lot_acres": 0.6,
+      "assessed_value": 2657034,
+      "style": "Georgian",
+      "type": "Single Family"
+    },
+    "fee_monthly": 566,
+    "fee_annual": 6792,
+    "talking_points": [
+      "$4,200,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2010 (16 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl002",
+    "label": "SEEDED_LEAD_002",
+    "address": "23 Long Lots Rd, Westport CT 06880",
+    "city": "Westport",
+    "state": "CT",
+    "zip": "06880",
+    "sale_price": 3500000,
+    "sale_date": "2025-10-10",
+    "buyer_name": "Catherine Forsythe",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "23 Long Lots Rd, Westport CT 06880",
+    "score": 30,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2016,
+      "sqft": 7988,
+      "bedrooms": 7,
+      "bathrooms": 5.5,
+      "lot_acres": 1.3,
+      "assessed_value": 1728524,
+      "style": "Traditional",
+      "type": "Single Family"
+    },
+    "fee_monthly": 650,
+    "fee_annual": 7800,
+    "talking_points": [
+      "$3,500,000 acquisition \u2014 established wealth, understated profile.",
+      "Built 2016 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Citigroup Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl003",
+    "label": "SEEDED_LEAD_003",
+    "address": "56 Weston Rd, Westport CT 06880",
+    "city": "Westport",
+    "state": "CT",
+    "zip": "06880",
+    "sale_price": 4100000,
+    "sale_date": "2025-07-15",
+    "buyer_name": "Nancy Carrington",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "56 Weston Rd, Westport CT 06880",
+    "score": 45,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1984,
+      "sqft": 7034,
+      "bedrooms": 6,
+      "bathrooms": 5.5,
+      "lot_acres": 2.2,
+      "assessed_value": 1854414,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$4,100,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1984 (42 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Bruce Museum of Arts and Science",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl004",
+    "label": "SEEDED_LEAD_004",
+    "address": "112 Havemeyer Lane, Greenwich CT 06831",
+    "city": "Greenwich",
+    "state": "CT",
+    "zip": "06831",
+    "sale_price": 4700000,
+    "sale_date": "2026-04-05",
+    "buyer_name": "Margaret Queensbury",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "112 Havemeyer Lane, Greenwich CT 06831",
+    "score": 45,
+    "stage": "proposal_sent",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1996,
+      "sqft": 5357,
+      "bedrooms": 5,
+      "bathrooms": 5.5,
+      "lot_acres": 2.3,
+      "assessed_value": 2933287,
+      "style": "Contemporary",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$4,700,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1996 (30 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl005",
+    "label": "SEEDED_LEAD_005",
+    "address": "55 Fox Meadow Rd, Scarsdale NY 10583",
+    "city": "Scarsdale",
+    "state": "NY",
+    "zip": "10583",
+    "sale_price": 7500000,
+    "sale_date": "2025-04-29",
+    "buyer_name": "Peter Ingersoll",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "993 Fifth Ave Apt 8A, New York NY 10028",
+    "score": 70,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2009,
+      "sqft": 5161,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "lot_acres": 2.3,
+      "assessed_value": 4795424,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1000,
+    "fee_annual": 12000,
+    "talking_points": [
+      "$7,500,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2009 (17 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Fairfield County Community Foundation",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      },
+      {
+        "org": "Citigroup Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl006",
+    "label": "SEEDED_LEAD_006",
+    "address": "37 Millport Ave, New Canaan CT 06840",
+    "city": "New Canaan",
+    "state": "CT",
+    "zip": "06840",
+    "sale_price": 5900000,
+    "sale_date": "2025-06-29",
+    "buyer_name": "Nancy Oakley",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "37 Millport Ave, New Canaan CT 06840",
+    "score": 55,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1983,
+      "sqft": 4935,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "lot_acres": 1.1,
+      "assessed_value": 3829276,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 900,
+    "fee_annual": 10800,
+    "talking_points": [
+      "$5,900,000 purchase signals significant discretionary capacity.",
+      "Property built 1983 (43 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Berkshire Hills Bancorp",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl007",
+    "label": "SEEDED_LEAD_007",
+    "address": "29 West Mountain Rd, Ridgefield CT 06877",
+    "city": "Ridgefield",
+    "state": "CT",
+    "zip": "06877",
+    "sale_price": 5800000,
+    "sale_date": "2025-12-10",
+    "buyer_name": "Eleanor Islington",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "15 Central Park W Apt 14D, New York NY 10023",
+    "score": 80,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1979,
+      "sqft": 5075,
+      "bedrooms": 4,
+      "bathrooms": 3.5,
+      "lot_acres": 2.2,
+      "assessed_value": 2692194,
+      "style": "Traditional",
+      "type": "Single Family"
+    },
+    "fee_monthly": 900,
+    "fee_annual": 10800,
+    "talking_points": [
+      "$5,800,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1979 (47 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Greenwich Hospital Foundation",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      },
+      {
+        "org": "BlackRock Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl008",
+    "label": "SEEDED_LEAD_008",
+    "address": "11 Rowayton Ave, Darien CT 06820",
+    "city": "Darien",
+    "state": "CT",
+    "zip": "06820",
+    "sale_price": 3300000,
+    "sale_date": "2025-10-02",
+    "buyer_name": "Philip Oakley",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "1185 Park Ave Apt 3D, New York NY 10128",
+    "score": 70,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2011,
+      "sqft": 6731,
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "lot_acres": 1.3,
+      "assessed_value": 2055132,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$3,300,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Built 2011 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "New Canaan Land Trust",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl009",
+    "label": "SEEDED_LEAD_009",
+    "address": "83 Pine Creek Ave, Fairfield CT 06824",
+    "city": "Fairfield",
+    "state": "CT",
+    "zip": "06824",
+    "sale_price": 4500000,
+    "sale_date": "2026-01-25",
+    "buyer_name": "George Carrington",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "45 E 89th St Apt 12C, New York NY 10128",
+    "score": 70,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1981,
+      "sqft": 6989,
+      "bedrooms": 5,
+      "bathrooms": 6.5,
+      "lot_acres": 2.3,
+      "assessed_value": 2423817,
+      "style": "Ranch",
+      "type": "Single Family"
+    },
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "talking_points": [
+      "$4,500,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1981 (45 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Westchester Medical Center Foundation",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl010",
+    "label": "SEEDED_LEAD_010",
+    "address": "34 Griffen Ave, Scarsdale NY 10583",
+    "city": "Scarsdale",
+    "state": "NY",
+    "zip": "10583",
+    "sale_price": 9400000,
+    "sale_date": "2026-04-15",
+    "buyer_name": "Edward Blake",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "34 Griffen Ave, Scarsdale NY 10583",
+    "score": 55,
+    "stage": "proposal_sent",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1975,
+      "sqft": 4548,
+      "bedrooms": 7,
+      "bathrooms": 3.5,
+      "lot_acres": 2.5,
+      "assessed_value": 4728581,
+      "style": "Ranch",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1500,
+    "fee_annual": 18000,
+    "talking_points": [
+      "$9,400,000 purchase signals significant discretionary capacity.",
+      "Property built 1975 (51 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Audubon Connecticut",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      },
+      {
+        "org": "BlackRock Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl011",
+    "label": "SEEDED_LEAD_011",
+    "address": "19 Stonehouse Rd, Scarsdale NY 10583",
+    "city": "Scarsdale",
+    "state": "NY",
+    "zip": "10583",
+    "sale_price": 5700000,
+    "sale_date": "2026-03-14",
+    "buyer_name": "Penelope Prescott",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "19 Stonehouse Rd, Scarsdale NY 10583",
+    "score": 55,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2006,
+      "sqft": 7641,
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "lot_acres": 1.1,
+      "assessed_value": 2622162,
+      "style": "Tudor",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1000,
+    "fee_annual": 12000,
+    "talking_points": [
+      "$5,700,000 purchase signals significant discretionary capacity.",
+      "Property built 2006 (20 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl012",
+    "label": "SEEDED_LEAD_012",
+    "address": "18 Wahackme Rd, New Canaan CT 06840",
+    "city": "New Canaan",
+    "state": "CT",
+    "zip": "06840",
+    "sale_price": 6700000,
+    "sale_date": "2026-02-26",
+    "buyer_name": "Eleanor Jennings",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "812 Fifth Ave Apt 11, New York NY 10065",
+    "score": 80,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1980,
+      "sqft": 7866,
+      "bedrooms": 5,
+      "bathrooms": 5.5,
+      "lot_acres": 1.7,
+      "assessed_value": 3844971,
+      "style": "Tudor",
+      "type": "Single Family"
+    },
+    "fee_monthly": 800,
+    "fee_annual": 9600,
+    "talking_points": [
+      "$6,700,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1980 (46 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "New Canaan Land Trust",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl013",
+    "label": "SEEDED_LEAD_013",
+    "address": "9 Maple Ave, Harrison NY 10528",
+    "city": "Harrison",
+    "state": "NY",
+    "zip": "10528",
+    "sale_price": 4800000,
+    "sale_date": "2026-01-17",
+    "buyer_name": "Philip Chase",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "9 Maple Ave, Harrison NY 10528",
+    "score": 45,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1990,
+      "sqft": 3794,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "lot_acres": 1.7,
+      "assessed_value": 2700473,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "talking_points": [
+      "$4,800,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1990 (36 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Save the Sound Foundation",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl014",
+    "label": "SEEDED_LEAD_014",
+    "address": "6 Summit Rd, Greenwich CT 06830",
+    "city": "Greenwich",
+    "state": "CT",
+    "zip": "06830",
+    "sale_price": 3200000,
+    "sale_date": "2026-01-27",
+    "buyer_name": "Charlotte Pembroke",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "45 E 89th St Apt 12C, New York NY 10128",
+    "score": 70,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1979,
+      "sqft": 7533,
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "lot_acres": 2.1,
+      "assessed_value": 1631602,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 650,
+    "fee_annual": 7800,
+    "talking_points": [
+      "$3,200,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1979 (47 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Citigroup Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl015",
+    "label": "SEEDED_LEAD_015",
+    "address": "88 Lake Ave, Greenwich CT 06830",
+    "city": "Greenwich",
+    "state": "CT",
+    "zip": "06830",
+    "sale_price": 3850000,
+    "sale_date": "2026-03-14",
+    "buyer_name": "Richard Bancroft",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "993 Fifth Ave Apt 8A, New York NY 10028",
+    "score": 62,
+    "stage": "call_completed",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2001,
+      "sqft": 5362,
+      "bedrooms": 7,
+      "bathrooms": 4.5,
+      "lot_acres": 2.3,
+      "assessed_value": 1733818,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 566,
+    "fee_annual": 6000,
+    "talking_points": [
+      "$3.85M acquisition with primary residence in Manhattan \u2014 confirmed absentee owner.",
+      "Expressed concern about vendor coordination on call \u2014 AVM's core differentiator.",
+      "Pricing transparency raised \u2014 send AVM rate card and comparable case studies."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Yale New Haven Health Foundation",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [
+      {
+        "type": "email_sent",
+        "date": "2026-05-02",
+        "content": "Initial outreach email sent \u2014 referenced recent acquisition and absentee flag.",
+        "author": "Platform"
+      },
+      {
+        "type": "email_opened",
+        "date": "2026-05-03",
+        "content": "Email opened (tracked). No reply.",
+        "author": "Platform"
+      },
+      {
+        "type": "call",
+        "date": "2026-05-18",
+        "content": "Discovery call \u2014 22 minutes. See Zoom summary below.",
+        "author": "AVM Rep"
+      },
+      {
+        "type": "zoom_summary",
+        "date": "2026-05-18",
+        "content": "Call Summary \u2014 Richard Bancroft \u2014 May 18, 2026 \u2014 22 min\n\nProspect confirmed he is away from the Greenwich property approximately 8 months per year, primarily based in Manhattan but also spends time in London for work. He acknowledged that vendor coordination has been a recurring frustration \u2014 had two separate incidents last winter where contractors were not properly supervised, resulting in a flooded utility room and a missed HVAC inspection.\n\nHe was receptive to the AVM model but asked pointed questions about pricing transparency \u2014 specifically wanted to know whether the monthly fee includes emergency response or if that's billed separately. He also asked whether AVM handles billing directly with vendors or passes invoices through to the owner.\n\nHe mentioned he had spoken with one other property management firm (did not name them) and found their contract \"opaque.\" He would like to see a sample monthly statement before moving forward. He described the property as \"a significant asset I'm not currently protecting properly.\"\n\nAction items discussed: Send sample monthly report, send rate card with full fee breakdown, follow up in 2 weeks.",
+        "author": "Zoom AI"
+      }
+    ],
+    "tags": [],
+    "ai_followup": [
+      {
+        "priority": "high",
+        "action": "Send rate card + sample monthly statement",
+        "reason": "Prospect explicitly requested both. Pricing transparency is his primary concern.",
+        "due": "2026-05-20",
+        "icon": "\ud83d\udcc4"
+      },
+      {
+        "priority": "high",
+        "action": "Address vendor billing flow in follow-up email",
+        "reason": "He asked specifically whether AVM handles vendor invoicing directly. Clarify AVM's model: we manage vendor relationships and submit a single monthly statement.",
+        "due": "2026-05-20",
+        "icon": "\ud83d\udcac"
+      },
+      {
+        "priority": "medium",
+        "action": "Reference the flooded utility room incident in next touch",
+        "reason": "He mentioned a real incident \u2014 reinforces why supervised vendor coordination matters. Don't let this slip.",
+        "due": "2026-06-01",
+        "icon": "\ud83c\udfaf"
+      }
+    ]
+  },
+  {
+    "id": "sl016",
+    "label": "SEEDED_LEAD_016",
+    "address": "34 Clapboard Ridge Rd, Greenwich CT 06831",
+    "city": "Greenwich",
+    "state": "CT",
+    "zip": "06830",
+    "sale_price": 4600000,
+    "sale_date": "2025-07-10",
+    "buyer_name": "Thomas Whitfield",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "200 E 72nd St Apt 30C, New York NY 10021",
+    "score": 65,
+    "stage": "reengagement",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1983,
+      "sqft": 4116,
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "lot_acres": 2.3,
+      "assessed_value": 4472944,
+      "style": "Ranch",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1500,
+    "fee_annual": 18000,
+    "talking_points": [
+      "$8,000,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1983 (43 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "United Way of Westchester and Putnam",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "reengagement_trigger": "Timer (90 days) \u2014 last contact May 3, 2026. No reply to 3-touch sequence.",
+    "days_since_last_touch": 44,
+    "last_outreach_summary": "Sent 3-email introduction sequence Mar\u2013Apr 2026. No opens on emails 2\u20133. Cold."
+  },
+  {
+    "id": "sl017",
+    "label": "SEEDED_LEAD_017",
+    "address": "47 Rock Maple Rd, Darien CT 06820",
+    "city": "Darien",
+    "state": "CT",
+    "zip": "06877",
+    "sale_price": 5100000,
+    "sale_date": "2026-05-12",
+    "buyer_name": "Stonegate Family Trust",
+    "entity_flag": true,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "530 Park Ave Apt 22B, New York NY 10065",
+    "score": 72,
+    "stage": "reengagement",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1998,
+      "sqft": 7786,
+      "bedrooms": 7,
+      "bathrooms": 5.5,
+      "lot_acres": 2.0,
+      "assessed_value": 4001462,
+      "style": "Traditional",
+      "type": "Single Family"
+    },
+    "fee_monthly": 900,
+    "fee_annual": 10800,
+    "talking_points": [
+      "$6,300,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1998 (28 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Greenwich United Way",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "reengagement_trigger": "Public records event \u2014 New deed transfer recorded June 4, 2026 at this address.",
+    "days_since_last_touch": 91,
+    "last_outreach_summary": "Initial outreach email sent March 2026. No response. New deed transfer is a trigger event \u2014 worth re-engaging."
+  },
+  {
+    "id": "sl018",
+    "label": "SEEDED_LEAD_018",
+    "address": "22 Sturges Ridge Rd, Wilton CT 06897",
+    "city": "Wilton",
+    "state": "CT",
+    "zip": "06897",
+    "sale_price": 4500000,
+    "sale_date": "2026-03-02",
+    "buyer_name": "Diana Kimball",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "22 Sturges Ridge Rd, Wilton CT 06897",
+    "score": 45,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1976,
+      "sqft": 4085,
+      "bedrooms": 7,
+      "bathrooms": 6.5,
+      "lot_acres": 0.6,
+      "assessed_value": 2448621,
+      "style": "Traditional",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$4,500,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1976 (50 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Round Hill Community Church Foundation",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "watchlist": true,
+    "watchlist_alert": {
+      "type": "deed_transfer",
+      "date": "2026-06-04",
+      "message": "New deed recorded at 9 Compo Beach Rd, Westport CT 06880. Transfer from individual to LLC \u2014 potential estate planning event.",
+      "priority": "high"
+    }
+  },
+  {
+    "id": "sl019",
+    "label": "SEEDED_LEAD_019",
+    "address": "18 Milton Point Rd, Rye NY 10580",
+    "city": "Rye",
+    "state": "NY",
+    "zip": "10580",
+    "sale_price": 3900000,
+    "sale_date": "2025-11-09",
+    "buyer_name": "Helena Northrop",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "3 Locust Lane, Chatham NJ 07928",
+    "score": 70,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1987,
+      "sqft": 7373,
+      "bedrooms": 7,
+      "bathrooms": 6,
+      "lot_acres": 2.5,
+      "assessed_value": 2173248,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 650,
+    "fee_annual": 7800,
+    "talking_points": [
+      "$3,900,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1987 (39 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Stamford Symphony Orchestra",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "watchlist": true,
+    "watchlist_alert": {
+      "type": "listing",
+      "date": "2026-06-11",
+      "message": "Property at 14 Sherwood Farm Rd, Weston CT listed for sale at $4.2M \u2014 owner may be motivated to establish services before closing.",
+      "priority": "medium"
+    }
+  },
+  {
+    "id": "sl020",
+    "label": "SEEDED_LEAD_020",
+    "address": "5 Mountain Laurel Rd, Wilton CT 06897",
+    "city": "Rye",
+    "state": "NY",
+    "zip": "10580",
+    "sale_price": 2850000,
+    "sale_date": "2026-05-13",
+    "buyer_name": "Philip Davenport",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "60 Sutton Place Apt 4D, New York NY 10022",
+    "score": 52,
+    "stage": "email_queued",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2009,
+      "sqft": 7389,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "lot_acres": 2.3,
+      "assessed_value": 1708055,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 800,
+    "fee_annual": 9600,
+    "talking_points": [
+      "$3,500,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1991 (35 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Yale New Haven Health Foundation",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "draft_email": {
+      "to": "philip.davenport@[private]",
+      "from": "sarah.morgan@avmconcierge.com",
+      "subject": "Your new property at 5 Mountain Laurel Rd \u2014 a thought",
+      "body": "Dear Mr. Davenport,\n\nCongratulations on your recent acquisition at 5 Mountain Laurel Rd in Wilton. It's a beautiful property in one of Fairfield County's most sought-after neighborhoods.\n\nI noticed the home was purchased through a New York address \u2014 which tells me you may be managing it remotely. If that's the case, I wanted to introduce AVM Concierge, a property management service built specifically for owners like you: people who own exceptional properties in Connecticut and Westchester, but who aren't there every day to oversee them.\n\nWe handle everything from vendor relationships to seasonal maintenance to emergency response \u2014 all for a flat monthly fee with complete transparency on every invoice. Our clients tell us the thing they value most is never having to take a call about a leaking roof when they're in a board meeting.\n\nI'd love to tell you more. Would you be open to a 15-minute call this week or next?\n\nWarm regards,\nSarah Morgan\nClient Development \u2014 AVM Concierge\n(203) 555-0142"
+    }
+  },
+  {
+    "id": "sl021",
+    "label": "SEEDED_LEAD_021",
+    "address": "34 Clapboard Ridge Rd, Greenwich CT 06831",
+    "city": "Greenwich",
+    "state": "CT",
+    "zip": "06831",
+    "sale_price": 5500000,
+    "sale_date": "2026-02-21",
+    "buyer_name": "Ridgecrest Holdings LLC",
+    "entity_flag": true,
+    "entity_type": "LLC/Trust",
+    "absentee_flag": false,
+    "owner_mailing_address": "34 Clapboard Ridge Rd, Greenwich CT 06831",
+    "score": 40,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2017,
+      "sqft": 5904,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "lot_acres": 2.2,
+      "assessed_value": 3266729,
+      "style": "Contemporary",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1200,
+    "fee_annual": 14400,
+    "talking_points": [
+      "$5,500,000 purchase signals significant discretionary capacity.",
+      "Built 2017 \u2014 approaching the 10-year maintenance inflection point.",
+      "LLC/Trust structure \u2014 no individual hands-on management. AVM fills the gap directly."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl022",
+    "label": "SEEDED_LEAD_022",
+    "address": "31 Oakland Beach Ave, Rye NY 10580",
+    "city": "Rye",
+    "state": "NY",
+    "zip": "10580",
+    "sale_price": 6700000,
+    "sale_date": "2026-03-28",
+    "buyer_name": "Carlton Templeton",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "740 Park Ave Apt 6B, New York NY 10021",
+    "score": 80,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2010,
+      "sqft": 5665,
+      "bedrooms": 7,
+      "bathrooms": 5.5,
+      "lot_acres": 2.2,
+      "assessed_value": 3422192,
+      "style": "Traditional",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1200,
+    "fee_annual": 14400,
+    "talking_points": [
+      "$6,700,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2010 (16 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Bruce Museum of Arts and Science",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl023",
+    "label": "SEEDED_LEAD_023",
+    "address": "24 Purchase St, Rye NY 10580",
+    "city": "Rye",
+    "state": "NY",
+    "zip": "10580",
+    "sale_price": 6200000,
+    "sale_date": "2025-06-21",
+    "buyer_name": "Diana Blake",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "1 Gracie Square Apt 7A, New York NY 10028",
+    "score": 80,
+    "stage": "signed",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2003,
+      "sqft": 5524,
+      "bedrooms": 6,
+      "bathrooms": 3.5,
+      "lot_acres": 2.1,
+      "assessed_value": 3721411,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1200,
+    "fee_annual": 14400,
+    "talking_points": [
+      "$6,200,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2003 (23 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Stamford Symphony Orchestra",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "signed_date": "2026-02-27",
+    "contract_value": 14400,
+    "platform_fee": 1440
+  },
+  {
+    "id": "sl024",
+    "label": "SEEDED_LEAD_024",
+    "address": "15 Edgewater Dr, Darien CT 06820",
+    "city": "Darien",
+    "state": "CT",
+    "zip": "06820",
+    "sale_price": 4900000,
+    "sale_date": "2025-05-04",
+    "buyer_name": "Lawrence Alderton",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "1 Gracie Square Apt 7A, New York NY 10028",
+    "score": 60,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2014,
+      "sqft": 7249,
+      "bedrooms": 7,
+      "bathrooms": 4,
+      "lot_acres": 0.8,
+      "assessed_value": 2878869,
+      "style": "Ranch",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$4,900,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Built 2014 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Greenwich United Way",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      },
+      {
+        "org": "Berkshire Hills Bancorp",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl025",
+    "label": "SEEDED_LEAD_025",
+    "address": "8 Gates Rd, Weston CT 06883",
+    "city": "Weston",
+    "state": "CT",
+    "zip": "06883",
+    "sale_price": 3400000,
+    "sale_date": "2025-10-07",
+    "buyer_name": "Robert Kimball",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "8 Gates Rd, Weston CT 06883",
+    "score": 45,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2008,
+      "sqft": 4292,
+      "bedrooms": 7,
+      "bathrooms": 6,
+      "lot_acres": 1.6,
+      "assessed_value": 1910069,
+      "style": "Contemporary",
+      "type": "Single Family"
+    },
+    "fee_monthly": 800,
+    "fee_annual": 9600,
+    "talking_points": [
+      "$3,400,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 2008 (18 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Northeast Utilities",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl026",
+    "label": "SEEDED_LEAD_026",
+    "address": "4 Cherry St, New Canaan CT 06840",
+    "city": "New Canaan",
+    "state": "CT",
+    "zip": "06840",
+    "sale_price": 5600000,
+    "sale_date": "2026-03-12",
+    "buyer_name": "Susan Morrison",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "812 Fifth Ave Apt 11, New York NY 10065",
+    "score": 80,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2003,
+      "sqft": 5471,
+      "bedrooms": 7,
+      "bathrooms": 6,
+      "lot_acres": 1.0,
+      "assessed_value": 3012657,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1200,
+    "fee_annual": 14400,
+    "talking_points": [
+      "$5,600,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2003 (23 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl027",
+    "label": "SEEDED_LEAD_027",
+    "address": "31 Godfrey Rd W, Weston CT 06883",
+    "city": "Weston",
+    "state": "CT",
+    "zip": "06883",
+    "sale_price": 5300000,
+    "sale_date": "2026-03-23",
+    "buyer_name": "Nathaniel Templeton",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "31 Godfrey Rd W, Weston CT 06883",
+    "score": 55,
+    "stage": "signed",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1980,
+      "sqft": 4952,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "lot_acres": 1.3,
+      "assessed_value": 2960167,
+      "style": "Tudor",
+      "type": "Single Family"
+    },
+    "fee_monthly": 900,
+    "fee_annual": 10800,
+    "talking_points": [
+      "$5,300,000 purchase signals significant discretionary capacity.",
+      "Property built 1980 (46 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": [],
+    "signed_date": "2026-05-02",
+    "contract_value": 10800,
+    "platform_fee": 1080
+  },
+  {
+    "id": "sl028",
+    "label": "SEEDED_LEAD_028",
+    "address": "5 Mountain Laurel Rd, Wilton CT 06897",
+    "city": "Wilton",
+    "state": "CT",
+    "zip": "06897",
+    "sale_price": 5300000,
+    "sale_date": "2025-05-06",
+    "buyer_name": "Clifford Randolph",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "5 Mountain Laurel Rd, Wilton CT 06897",
+    "score": 45,
+    "stage": "proposal_sent",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1976,
+      "sqft": 6394,
+      "bedrooms": 7,
+      "bathrooms": 5.5,
+      "lot_acres": 2.0,
+      "assessed_value": 2963900,
+      "style": "Georgian",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1200,
+    "fee_annual": 14400,
+    "talking_points": [
+      "$5,300,000 purchase signals significant discretionary capacity.",
+      "Property built 1976 (50 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl029",
+    "label": "SEEDED_LEAD_029",
+    "address": "11 Beech Tree Lane, Ridgefield CT 06877",
+    "city": "Ridgefield",
+    "state": "CT",
+    "zip": "06877",
+    "sale_price": 3200000,
+    "sale_date": "2025-12-11",
+    "buyer_name": "Walter Hadley",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "11 Beech Tree Lane, Ridgefield CT 06877",
+    "score": 45,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1999,
+      "sqft": 3887,
+      "bedrooms": 7,
+      "bathrooms": 4,
+      "lot_acres": 2.2,
+      "assessed_value": 1556306,
+      "style": "Contemporary",
+      "type": "Single Family"
+    },
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "talking_points": [
+      "$3,200,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1999 (27 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Westchester Medical Center Foundation",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl030",
+    "label": "SEEDED_LEAD_030",
+    "address": "72 South Ave, New Canaan CT 06840",
+    "city": "New Canaan",
+    "state": "CT",
+    "zip": "06840",
+    "sale_price": 3700000,
+    "sale_date": "2025-05-12",
+    "buyer_name": "Geoffrey Templeton",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "60 Sutton Place Apt 4D, New York NY 10022",
+    "score": 60,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1992,
+      "sqft": 6066,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "lot_acres": 0.6,
+      "assessed_value": 2373391,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 650,
+    "fee_annual": 7800,
+    "talking_points": [
+      "$3,700,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1992 (34 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Audubon Connecticut",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl031",
+    "label": "SEEDED_LEAD_031",
+    "address": "14 Sherwood Farm Rd, Weston CT 06883",
+    "city": "Weston",
+    "state": "CT",
+    "zip": "06883",
+    "sale_price": 8300000,
+    "sale_date": "2026-03-15",
+    "buyer_name": "Stephen Langley",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "14 Sherwood Farm Rd, Weston CT 06883",
+    "score": 55,
+    "stage": "signed",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2014,
+      "sqft": 5299,
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "lot_acres": 1.7,
+      "assessed_value": 5334799,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1500,
+    "fee_annual": 18000,
+    "talking_points": [
+      "$8,300,000 purchase signals significant discretionary capacity.",
+      "Built 2014 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Fairfield County Community Foundation",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": [],
+    "signed_date": "2026-04-18",
+    "contract_value": 18000,
+    "platform_fee": 1800
+  },
+  {
+    "id": "sl032",
+    "label": "SEEDED_LEAD_032",
+    "address": "47 Rock Maple Rd, Darien CT 06820",
+    "city": "Darien",
+    "state": "CT",
+    "zip": "06820",
+    "sale_price": 4500000,
+    "sale_date": "2025-06-20",
+    "buyer_name": "George Randolph",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "740 Park Ave Apt 6B, New York NY 10021",
+    "score": 70,
+    "stage": "call_booked",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2011,
+      "sqft": 5189,
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "lot_acres": 2.0,
+      "assessed_value": 2790263,
+      "style": "Georgian",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$4,500,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Built 2011 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "New Canaan Land Trust",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl033",
+    "label": "SEEDED_LEAD_033",
+    "address": "14 Lakeview Ave, Fairfield CT 06824",
+    "city": "Fairfield",
+    "state": "CT",
+    "zip": "06824",
+    "sale_price": 2800000,
+    "sale_date": "2025-11-24",
+    "buyer_name": "Virginia Bancroft",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "60 Sutton Place Apt 4D, New York NY 10022",
+    "score": 55,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2017,
+      "sqft": 7215,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "lot_acres": 2.4,
+      "assessed_value": 1615927,
+      "style": "Ranch",
+      "type": "Single Family"
+    },
+    "fee_monthly": 500,
+    "fee_annual": 6000,
+    "talking_points": [
+      "$2,800,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Built 2017 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl034",
+    "label": "SEEDED_LEAD_034",
+    "address": "28 Buttery Rd, Darien CT 06820",
+    "city": "Darien",
+    "state": "CT",
+    "zip": "06820",
+    "sale_price": 3900000,
+    "sale_date": "2026-01-14",
+    "buyer_name": "Elliot Kimball",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "28 Buttery Rd, Darien CT 06820",
+    "score": 30,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2016,
+      "sqft": 5211,
+      "bedrooms": 4,
+      "bathrooms": 4.5,
+      "lot_acres": 2.3,
+      "assessed_value": 1945213,
+      "style": "Tudor",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$3,900,000 acquisition \u2014 established wealth, understated profile.",
+      "Built 2016 \u2014 approaching the 10-year maintenance inflection point."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Yale New Haven Health Foundation",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl035",
+    "label": "SEEDED_LEAD_035",
+    "address": "7 Walworth Ave, Scarsdale NY 10583",
+    "city": "Scarsdale",
+    "state": "NY",
+    "zip": "10583",
+    "sale_price": 4300000,
+    "sale_date": "2026-02-28",
+    "buyer_name": "Clifford Underhill",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "22 Fox Run Rd, Far Hills NJ 07931",
+    "score": 70,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1995,
+      "sqft": 5490,
+      "bedrooms": 6,
+      "bathrooms": 5.5,
+      "lot_acres": 0.5,
+      "assessed_value": 2750333,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "talking_points": [
+      "$4,300,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1995 (31 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl036",
+    "label": "SEEDED_LEAD_036",
+    "address": "19 Pecksland Rd, Greenwich CT 06831",
+    "city": "Greenwich",
+    "state": "CT",
+    "zip": "06831",
+    "sale_price": 3200000,
+    "sale_date": "2025-07-06",
+    "buyer_name": "Catherine Prescott",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": false,
+    "owner_mailing_address": "19 Pecksland Rd, Greenwich CT 06831",
+    "score": 45,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2005,
+      "sqft": 5193,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "lot_acres": 1.7,
+      "assessed_value": 1742886,
+      "style": "Georgian",
+      "type": "Single Family"
+    },
+    "fee_monthly": 700,
+    "fee_annual": 8400,
+    "talking_points": [
+      "$3,200,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 2005 (21 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Fairfield County Community Foundation",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl037",
+    "label": "SEEDED_LEAD_037",
+    "address": "41 Bayberry Lane, Westport CT 06880",
+    "city": "Westport",
+    "state": "CT",
+    "zip": "06880",
+    "sale_price": 5000000,
+    "sale_date": "2026-01-14",
+    "buyer_name": "Patricia Prescott",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "88 Primrose Hill, Summit NJ 07901",
+    "score": 80,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2004,
+      "sqft": 4179,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "lot_acres": 0.9,
+      "assessed_value": 2734198,
+      "style": "Cape Cod",
+      "type": "Single Family"
+    },
+    "fee_monthly": 1000,
+    "fee_annual": 12000,
+    "talking_points": [
+      "$5,000,000 purchase signals significant discretionary capacity.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2004 (22 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "American Water Works Company Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl038",
+    "label": "SEEDED_LEAD_038",
+    "address": "15 Warren Ave, Bronxville NY 10708",
+    "city": "Bronxville",
+    "state": "NY",
+    "zip": "10708",
+    "sale_price": 4600000,
+    "sale_date": "2025-12-29",
+    "buyer_name": "Julia Langley",
+    "entity_flag": false,
+    "entity_type": null,
+    "absentee_flag": true,
+    "owner_mailing_address": "45 E 89th St Apt 12C, New York NY 10128",
+    "score": 70,
+    "stage": "contacted",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1986,
+      "sqft": 3646,
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "lot_acres": 2.4,
+      "assessed_value": 2656840,
+      "style": "Ranch",
+      "type": "Single Family"
+    },
+    "fee_monthly": 800,
+    "fee_annual": 9600,
+    "talking_points": [
+      "$4,600,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 1986 (40 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl039",
+    "label": "SEEDED_LEAD_039",
+    "address": "19 Belden Hill Rd, Wilton CT 06897",
+    "city": "Wilton",
+    "state": "CT",
+    "zip": "06897",
+    "sale_price": 4000000,
+    "sale_date": "2025-10-19",
+    "buyer_name": "Whispering Pines Holdings LLC",
+    "entity_flag": true,
+    "entity_type": "LLC/Trust",
+    "absentee_flag": true,
+    "owner_mailing_address": "1 Gracie Square Apt 7A, New York NY 10028",
+    "score": 70,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 2005,
+      "sqft": 3735,
+      "bedrooms": 7,
+      "bathrooms": 5,
+      "lot_acres": 0.6,
+      "assessed_value": 2303556,
+      "style": "Colonial",
+      "type": "Single Family"
+    },
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "talking_points": [
+      "$4,000,000 acquisition \u2014 established wealth, understated profile.",
+      "Mailing address differs from property \u2014 confirmed absentee owner. No local oversight.",
+      "Property built 2005 (21 years old) \u2014 aging systems require professional attention."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Save the Sound Foundation",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  },
+  {
+    "id": "sl040",
+    "label": "SEEDED_LEAD_040",
+    "address": "9 Compo Beach Rd, Westport CT 06880",
+    "city": "Westport",
+    "state": "CT",
+    "zip": "06880",
+    "sale_price": 2900000,
+    "sale_date": "2026-01-25",
+    "buyer_name": "Meadowview Family Trust",
+    "entity_flag": true,
+    "entity_type": "LLC/Trust",
+    "absentee_flag": false,
+    "owner_mailing_address": "9 Compo Beach Rd, Westport CT 06880",
+    "score": 45,
+    "stage": "cold",
+    "source": "platform",
+    "badge": null,
+    "network_match": false,
+    "property": {
+      "year_built": 1980,
+      "sqft": 6890,
+      "bedrooms": 7,
+      "bathrooms": 4.5,
+      "lot_acres": 2.2,
+      "assessed_value": 1879218,
+      "style": "Contemporary",
+      "type": "Single Family"
+    },
+    "fee_monthly": 566,
+    "fee_annual": 6792,
+    "talking_points": [
+      "$2,900,000 acquisition \u2014 established wealth, understated profile.",
+      "Property built 1980 (46 years old) \u2014 aging systems require professional attention.",
+      "LLC/Trust structure \u2014 no individual hands-on management. AVM fills the gap directly."
+    ],
+    "intel": {
+      "propublica": [],
+      "edgar": [],
+      "state_filings": [],
+      "press": ""
+    },
+    "affiliations": [
+      {
+        "org": "Stamford Symphony Orchestra",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      }
+    ],
+    "timeline": [],
+    "tags": []
+  }
+]

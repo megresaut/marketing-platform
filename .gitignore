@@ -1,0 +1,21 @@
+.vercel
+.DS_Store
+__pycache__/
+*.pyc
+.superpowers/
+.env*
+
+# ---- Excluded: contain real people's data (names, addresses, emails, phones) ----
+# Real CT property owners pulled from public records
+**/data/real_properties.json
+**/build/
+**/index.html
+**/BRIEF.md
+**/DATA_SOURCES.md
+**/DECISIONS.md
+avm/client_email_draft.txt
+avm/leads_engine/output/
+# Marex HubSpot customer contacts (engine source/tests/docs quote real customer records)
+marex/marex.html
+marex/marex_engine/
+marex/docs/

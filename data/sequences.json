@@ -1,0 +1,66 @@
+[
+  {
+    "id": "seq01",
+    "name": "Concierge Introduction",
+    "description": "5-touch sequence introducing AVM Concierge to new absentee property owners.",
+    "duration_days": 30,
+    "steps": [
+      {
+        "day": 1,
+        "type": "email",
+        "subject": "Your new property at {address} \u2014 a thought",
+        "note": "Personalized intro referencing absentee status and specific property."
+      },
+      {
+        "day": 5,
+        "type": "email",
+        "subject": "Quick follow-up \u2014 AVM Concierge",
+        "note": "Brief follow-up. Reference one relevant pain point (seasonal maintenance, vendor coordination)."
+      },
+      {
+        "day": 12,
+        "type": "call_prompt",
+        "subject": "Call attempt \u2014 reference email in voicemail",
+        "note": "Leave voicemail if no answer. Reference the email sequence."
+      },
+      {
+        "day": 18,
+        "type": "email",
+        "subject": "What our clients say about absentee peace of mind",
+        "note": "Social proof email. Include one client testimonial quote (anonymized)."
+      },
+      {
+        "day": 30,
+        "type": "email",
+        "subject": "Last touch \u2014 AVM Concierge",
+        "note": "Final email. Offer direct intro call with AVM principal."
+      }
+    ]
+  },
+  {
+    "id": "seq02",
+    "name": "New Closing Fast-Track",
+    "description": "3-touch rapid sequence for properties that closed within the last 30 days.",
+    "duration_days": 10,
+    "steps": [
+      {
+        "day": 1,
+        "type": "email",
+        "subject": "Congratulations on {address}",
+        "note": "Immediate congratulatory touch. Short, warm, personalized."
+      },
+      {
+        "day": 4,
+        "type": "call_prompt",
+        "subject": "Follow-up call attempt",
+        "note": "Call while property is top of mind. Reference recent close."
+      },
+      {
+        "day": 10,
+        "type": "email",
+        "subject": "One last thing \u2014 AVM Concierge",
+        "note": "Brief email. Offer to schedule a quick call."
+      }
+    ]
+  }
+]

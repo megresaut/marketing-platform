@@ -1,0 +1,766 @@
+<title>Marex Intelligence Platform — Strategic Brief</title>
+<style>
+  :root {
+    --ground: #E8E2CF;
+    --surface-mid: #D4CCBA;
+    --deep: #0B1C2A;
+    --deep-2: #152A3D;
+    --text: #18283A;
+    --text-dim: #3C4F60;
+    --accent: #B8934A;
+    --signal: #9A2828;
+    --rule: rgba(184, 147, 74, 0.35);
+    --mono: "Courier New", "Courier", monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--ground);
+    color: var(--text);
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* ── HERO ─────────────────────────────────────────── */
+  .hero {
+    position: relative;
+    background: var(--deep);
+    overflow: hidden;
+    padding: 88px 0 76px;
+  }
+
+  #chart-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+
+  .hero-eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 1px;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .hero-title {
+    font-family: "Georgia", serif;
+    font-size: clamp(30px, 4.8vw, 50px);
+    font-weight: bold;
+    color: #F0EDE4;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    margin-bottom: 18px;
+    max-width: 620px;
+  }
+
+  .hero-sub {
+    font-size: 15px;
+    color: rgba(240, 237, 228, 0.65);
+    max-width: 520px;
+    line-height: 1.7;
+    margin-bottom: 36px;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(184, 147, 74, 0.25);
+    padding-top: 24px;
+  }
+
+  .hero-meta-item {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: rgba(184, 147, 74, 0.65);
+    letter-spacing: 0.1em;
+    padding-right: 32px;
+    margin-right: 32px;
+    border-right: 1px solid rgba(184, 147, 74, 0.2);
+  }
+
+  .hero-meta-item:last-child { border-right: none; }
+
+  .hero-meta-item strong {
+    display: block;
+    color: rgba(184, 147, 74, 1);
+    font-size: 13px;
+    margin-bottom: 1px;
+  }
+
+  /* ── DOC BODY ─────────────────────────────────────── */
+  .doc {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 48px 88px;
+  }
+
+  /* ── SECTION ──────────────────────────────────────── */
+  .section {
+    padding-top: 56px;
+    border-top: 1px solid var(--rule);
+    margin-top: 56px;
+  }
+
+  .section:first-of-type { margin-top: 56px; }
+
+  .section-eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: clamp(19px, 2.8vw, 25px);
+    font-weight: bold;
+    color: var(--text);
+    line-height: 1.25;
+    margin-bottom: 14px;
+  }
+
+  .section-lead {
+    font-size: 15px;
+    color: var(--text-dim);
+    line-height: 1.78;
+    max-width: 680px;
+    margin-bottom: 0;
+  }
+
+  /* ── CALLOUT BLOCK ────────────────────────────────── */
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: rgba(184, 147, 74, 0.07);
+    padding: 16px 20px;
+    margin: 24px 0;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.65;
+  }
+
+  .callout strong { color: var(--text); }
+
+  /* ── DATA GRID (sources table) ────────────────────── */
+  .data-list {
+    margin-top: 28px;
+    border: 1px solid var(--surface-mid);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .data-row {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    border-bottom: 1px solid var(--surface-mid);
+    font-size: 13px;
+  }
+
+  .data-row:last-child { border-bottom: none; }
+
+  .data-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+    padding: 14px 18px;
+    background: rgba(184, 147, 74, 0.06);
+    border-right: 1px solid var(--surface-mid);
+    line-height: 1.5;
+  }
+
+  .data-value {
+    padding: 14px 18px;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+
+  .data-value em {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-style: normal;
+    color: var(--text);
+    background: rgba(13, 28, 42, 0.06);
+    padding: 1px 5px;
+    border-radius: 3px;
+  }
+
+  /* ── MODULE CARDS ─────────────────────────────────── */
+  .module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+    margin-top: 28px;
+  }
+
+  .module-card {
+    background: rgba(255, 255, 255, 0.38);
+    border: 1px solid var(--surface-mid);
+    border-radius: 5px;
+    padding: 18px 20px;
+  }
+
+  .mod-status {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mod-built { background: rgba(11, 28, 42, 0.09); color: var(--deep); }
+  .mod-next  { background: rgba(184, 147, 74, 0.18); color: #7A6028; }
+
+  .mod-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+
+  .mod-desc {
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.62;
+  }
+
+  /* ── REFINEMENT LIST ──────────────────────────────── */
+  .refine-list { margin-top: 28px; }
+
+  .refine-item {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 16px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--surface-mid);
+    align-items: flex-start;
+  }
+
+  .refine-item:last-child { border-bottom: none; }
+
+  .refine-num {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: bold;
+    padding-top: 2px;
+    letter-spacing: 0.05em;
+  }
+
+  .refine-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 5px;
+  }
+
+  .refine-desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.65;
+    margin-bottom: 6px;
+  }
+
+  .refine-tag {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--signal);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  /* ── DEMO STEPS ───────────────────────────────────── */
+  .demo-steps { margin-top: 28px; }
+
+  .demo-step {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--surface-mid);
+    align-items: flex-start;
+  }
+
+  .demo-step:last-child { border-bottom: none; }
+
+  .demo-step-num {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--surface-mid);
+    line-height: 1;
+    padding-top: 3px;
+    letter-spacing: -0.02em;
+  }
+
+  .demo-step-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 5px;
+  }
+
+  .demo-step-desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.65;
+  }
+
+  .demo-step-note {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+
+  /* ── FOOTER ───────────────────────────────────────── */
+  .doc-footer {
+    background: var(--deep);
+    padding: 36px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: rgba(240, 237, 228, 0.35);
+  }
+
+  .doc-footer strong { color: var(--accent); }
+
+  @media (max-width: 620px) {
+    .hero-inner, .doc { padding-left: 24px; padding-right: 24px; }
+    .data-row { grid-template-columns: 1fr; }
+    .data-label { border-right: none; border-bottom: 1px solid var(--surface-mid); }
+    .doc-footer { padding: 28px 24px; }
+    .hero-meta-item { border-right: none; padding-right: 0; margin-right: 0; margin-bottom: 10px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+</style>
+
+<div class="hero">
+  <canvas id="chart-bg" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Strategic Platform Brief</div>
+    <h1 class="hero-title">Marex Sales Intelligence Platform</h1>
+    <p class="hero-sub">A purpose-built lead generation and outreach system for Marex Boats USA — finding high-probability buyers in the $400K–$1.5M vessel replacement market before competing dealers do.</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><strong>CLIENT</strong>Christopher J. Hughes, President</div>
+      <div class="hero-meta-item"><strong>PREPARED</strong>June 2026</div>
+      <div class="hero-meta-item"><strong>STATUS</strong>Active Demo Build</div>
+      <div class="hero-meta-item"><strong>PLATFORM</strong>marex.html · localhost:3000</div>
+    </div>
+  </div>
+</div>
+
+<div class="doc">
+
+  <section class="section">
+    <div class="section-eyebrow">01 — Overview</div>
+    <h2 class="section-title">What This Platform Does</h2>
+    <p class="section-lead">The Marex Sales Intelligence Platform is a proactive outreach and pipeline management system for Marex Boats USA. Where a standard CRM manages relationships that already exist, this platform manufactures the preconditions for them — surfacing qualified prospects before they walk into a competitor's booth, scoring them by replacement urgency, and identifying the shared yacht club affiliations that turn a cold call into a warm introduction.</p>
+    <div class="callout">
+      <strong>The core loop:</strong> Ingest vessel ownership and market activity data → identify owners of aging competitor vessels with upgrade profiles that match a Marex model → score by urgency (listing activity, price reductions, ownership transfers) → surface shared yacht club affiliations with existing Marex clients → route to manual outreach with model-specific talking points, or into an automated sequence.
+    </div>
+    <p class="section-lead">The platform does not require cold outreach from scratch. Every lead enters the system with context: the vessel they own today, the marina they use, the yacht clubs they belong to, and any overlapping affiliations with Marex's current client base. By the time a sales rep makes contact, they know more about the prospect's situation than the prospect would expect.</p>
+  </section>
+
+  <section class="section">
+    <div class="section-eyebrow">02 — The Problem</div>
+    <h2 class="section-title">Why This Market Needs a Dedicated Tool</h2>
+    <p class="section-lead">The luxury vessel replacement market is invisible by default. A Princess 68 owner deciding to upgrade to a Marex 460 does not announce the decision. They list their boat on YachtWorld. They reduce the price three weeks later. They ask around at the yacht club. By the time a dealer notices the listing and makes contact, two or three competitors have already reached them through their own networks.</p>
+    <p class="section-lead" style="margin-top:16px;">General marine CRMs — MarineMax's internal tools, Salesforce with marine plugins — are structured around deals in progress, not deal creation. They have no mechanism for monitoring public vessel activity as a prospecting signal, no connection graph that routes introductions through shared club memberships, and no boat show pipeline that captures and scores on-dock contacts in real time.</p>
+    <div class="callout">
+      <strong>The specific gap this fills:</strong> Galeon, Princess, Azimut, and Sunseeker owners in the 40–65 ft range, vessels 8–14 years old, concentrated in CT/NY, South FL, Chesapeake Bay, and the Great Lakes — approximately 2,400–3,200 qualifying vessels in the US market. This is the addressable replacement pool for Marex 375 through 460. None of them are reachable through passive inbound channels.
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-eyebrow">03 — Data Sources</div>
+    <h2 class="section-title">Where the Intelligence Comes From</h2>
+    <p class="section-lead">All core data sources in the platform are either public records or commercially available feeds with well-documented APIs. No scraping of protected systems. No paid data dependencies required for the demo — all demo content is pre-embedded from real public records.</p>
+    <div class="data-list">
+      <div class="data-row">
+        <div class="data-label">USCG NVDC</div>
+        <div class="data-value">Coast Guard National Vessel Documentation Center — documented vessel ownership records, HIN numbers, transfer history, and registered owner name/address. Public database. Queryable by vessel name, owner name, or official number. <em>Primary ownership source for documented vessels ≥5 GT.</em></div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">State Vessel Registration</div>
+        <div class="data-value">State-level vessel registration records (FL DHSMV, CT DMV, NY DMV, IL DNR, TX PWD). Annual renewal creates a natural outreach cadence signal — registration window is also when owners reassess their current vessel. <em>Covers undocumented vessels and dinghies/tenders.</em></div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">YachtWorld / Boat Trader</div>
+        <div class="data-value">Public vessel listing feeds — the primary trade-up signal. When a prospect's current vessel appears for sale (or drops in price), the platform triggers an immediate high-priority alert. Price reduction velocity is a strong urgency indicator. <em>Listings include make/model/year/price/broker — enough to match against the prospect record.</em></div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">IRS Form 990 (ProPublica API)</div>
+        <div class="data-value">Nonprofit board membership, officer, and key employee disclosures. Source of yacht club board memberships — American Yacht Club, NYYC, Cruising Club of America, Chesapeake Bay Yacht Club, and others file 990s annually. <em>Free public API — no API key required.</em></div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">SEC EDGAR (Full-Text Search)</div>
+        <div class="data-value">Corporate executive disclosures, proxy statements, 8-K officer appointments. High-net-worth vessel owners frequently appear in public company filings. Surfaces professional context and warm-introduction pathways via mutual directorships. <em>Free public API — rate-limited but sufficient for prospect enrichment.</em></div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">Marina Records</div>
+        <div class="data-value">Dock lease agreements and slip registrations — where available publicly or through marina partnerships. New slip lease registrations signal active ownership; renewal windows are outreach touchpoints. <em>Availability varies by state and marina management system.</em></div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">NMMA Boat Show Data</div>
+        <div class="data-value">Show attendee and exhibitor records. In production: per-show lead capture via unique QR/URL → direct pipeline entry with show-specific UTM tagging. Enables post-show scoring and follow-up sequencing. <em>Demo uses per-show static lead capture links.</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-eyebrow">04 — Platform Architecture</div>
+    <h2 class="section-title">Modules Built and In Scope</h2>
+    <p class="section-lead">The platform is a single-file, self-contained HTML demo that can be served from any static host with no backend dependencies. All data enrichment runs at build time — the demo is not a live API call away from breaking.</p>
+    <div class="module-grid">
+      <div class="module-card">
+        <div class="mod-status mod-built">Built</div>
+        <div class="mod-name">Lead Discovery & Scoring</div>
+        <div class="mod-desc">Vessel ownership records → scored lead list with flag system: competitor vessel, entity-owned, upgrade profile, network match. Run Search animates leads in sequentially.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-built">Built</div>
+        <div class="mod-name">Connection Map</div>
+        <div class="mod-desc">D3.js force-directed graph of prospect and client nodes. Edges computed from shared yacht club affiliations (IRS 990). Gold edge highlights the key AYC match. Clickable nodes open vessel/owner sidebars.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-built">Built</div>
+        <div class="mod-name">Vessel Activity Monitor</div>
+        <div class="mod-desc">YachtWorld, Boat Trader, and marina record signals. Trade-up alerts, price reduction velocity, slip renewal windows. Priority-ranked, actionable cards.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-built">Built</div>
+        <div class="mod-name">Boat Show Pipeline</div>
+        <div class="mod-desc">Per-show contact lists, pipeline funnel stats, lead capture links, and pre-show prep checklists. Cards clickable into full show detail views.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-built">Built</div>
+        <div class="mod-name">Market Map</div>
+        <div class="mod-desc">D3-choropleth regional heat map of prospect density across 7 US boating regions. Marina cluster callouts with lead count and avg score.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-built">Built</div>
+        <div class="mod-name">Re-engagement Queue</div>
+        <div class="mod-desc">Cold leads resurface automatically on vessel sale listing, price drop, or ownership transfer events. Trigger source displayed on each card.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-next">Next</div>
+        <div class="mod-name">Model Fit Engine</div>
+        <div class="mod-desc">Auto-map prospect's current vessel (make/model/length/year) to the most likely Marex target model — 375, 420, 440, or 460 SC. Surface in talking points.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-next">Next</div>
+        <div class="mod-name">Live Vessel Feed</div>
+        <div class="mod-desc">Replace embedded demo data with a real-time USCG NVDC and YachtWorld webhook. Run Search becomes a live pull rather than a reveal animation.</div>
+      </div>
+      <div class="module-card">
+        <div class="mod-status mod-next">Next</div>
+        <div class="mod-name">Dealer/Rep Assignment</div>
+        <div class="mod-desc">Route qualified leads to regional dealer reps by marina geography. Track assignment, rep response time, and conversion per rep.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-eyebrow">05 — Marine-Specific Refinements</div>
+    <h2 class="section-title">What Makes This Different from a Generic Marine CRM</h2>
+    <p class="section-lead">These are the ideas developed specifically for the Marex use case — refinements that have no equivalent in off-the-shelf marine CRM products and that reflect how high-net-worth yacht owners actually behave.</p>
+    <div class="refine-list">
+      <div class="refine-item">
+        <div class="refine-num">01</div>
+        <div>
+          <div class="refine-title">Trade-Up Signal Detection</div>
+          <div class="refine-desc">When a prospect's current vessel appears on YachtWorld or Boat Trader, the platform triggers an immediate high-priority alert. Price reduction velocity adds urgency score — a 10–15% drop in 3 weeks means the owner is motivated and receptive. This is the highest-precision buying signal available in the market.</div>
+          <div class="refine-tag">Source: YachtWorld + Boat Trader listing feed</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">02</div>
+        <div>
+          <div class="refine-title">Yacht Club Affiliation as Introduction Routing</div>
+          <div class="refine-desc">IRS Form 990 board membership data is not just a display feature in the connection map — it informs the outreach talking points. When a prospect shares a board role at the American Yacht Club with an existing Marex client, the outreach email template references the club and proposes an introduction. The 990 source and EIN are displayed so the rep can verify the connection independently.</div>
+          <div class="refine-tag">Source: ProPublica Nonprofit API · IRS Form 990</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">03</div>
+        <div>
+          <div class="refine-title">Model Fit Scoring</div>
+          <div class="refine-desc">Each prospect's current vessel (make, model, length, year) is mapped to the most likely Marex replacement: Galeon 420 → Marex 440 GS; Princess 68 → Marex 460 SC; Riviera 5400 → Marex 440; Viking 62 → Marex 460. This surfaces automatically in the lead card and pre-populates the outreach talking points with model-specific specs and value propositions.</div>
+          <div class="refine-tag">Logic: vessel length/type/brand → Marex model matrix</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">04</div>
+        <div>
+          <div class="refine-title">Marina-Level Lead Clustering</div>
+          <div class="refine-desc">Prospects are clustered by marina, not ZIP code. A marina is a social and commercial community — three Galeon owners slipped at the same marina are aware of each other and talk. A rep who works one relationship well is visible to the adjacent prospects. The Market Map groups leads by marina cluster, shows cluster score, and flags when a marina has both a current Marex client and one or more prospects.</div>
+          <div class="refine-tag">Source: USCG NVDC home port · state registration · marina slip records</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">05</div>
+        <div>
+          <div class="refine-title">Competitor Vessel Brand Migration Talking Points</div>
+          <div class="refine-desc">The platform distinguishes prospects by their current brand: Galeon (Nordic Boats competitor — existing relationship leverage), Princess / Sunseeker (British semi-custom owners often moving to more utilitarian Scandinavian builds for different use cases), Azimut / Pershing (Italian sportboat buyers — different buying culture, price sensitivity), Viking / Hatteras (sport fishing segment, different use case and deck configuration priorities). Each brand cluster has a distinct outreach angle in the talking points engine.</div>
+          <div class="refine-tag">Flag: flag-competitor · Brand-specific talking point templates</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">06</div>
+        <div>
+          <div class="refine-title">Marine LLC Entity Resolution</div>
+          <div class="refine-desc">Luxury vessels over $500K are frequently owned by holding LLCs — "Osprey Point LLC," "Harbor Isle Holdings," etc. — a practice driven by liability insulation, state tax planning, and family estate structuring. The platform detects entity names and flags them for beneficial owner resolution via USCG NVDC registered agent records and state secretary of state filings. The resolved individual name drives the outreach and affiliation matching.</div>
+          <div class="refine-tag">Flag: flag-entity · Source: USCG NVDC · State SOS business filings</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">07</div>
+        <div>
+          <div class="refine-title">Annual Registration Renewal as Outreach Window</div>
+          <div class="refine-desc">State vessel registration renewals create a known annual calendar of prospect touchpoints. Florida registrations expire in December; Connecticut in March; New York in September. The platform tracks registration states for all prospects and queues outreach in the 30-day window before renewal — the moment an owner is most likely to reassess their current vessel investment.</div>
+          <div class="refine-tag">Source: State vessel registration records · Calendar-driven re-engagement queue</div>
+        </div>
+      </div>
+      <div class="refine-item">
+        <div class="refine-num">08</div>
+        <div>
+          <div class="refine-title">Boat Show Lead Capture Link System</div>
+          <div class="refine-desc">Each boat show in the pipeline generates a unique lead capture URL — short enough to display on dock signage, print on event badges, and share in show directory listings. Visitors who follow the link enter the prospect pipeline immediately with a show-specific source tag. Post-show, the pipeline view shows every contact captured at that show, their current vessel, and their model interest. The follow-up email sequence is triggered automatically 48 hours after show close.</div>
+          <div class="refine-tag">Per-show QR + URL · UTM tagging · Automated 48h follow-up sequence</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-eyebrow">06 — Demo Path</div>
+    <h2 class="section-title">The Critical Flow Through the Demo</h2>
+    <p class="section-lead">The demo is sequenced to build from "this is live and working" through to "this is the highest-value differentiator." Every step on this path must be flawless. Everything outside it can have rough edges.</p>
+    <div class="demo-steps">
+      <div class="demo-step">
+        <div class="demo-step-num">01</div>
+        <div>
+          <div class="demo-step-title">Dashboard — The system is already running</div>
+          <div class="demo-step-desc">Opens to an active, populated state. Lead counter, pipeline funnel, recent activity, top 3 scored leads visible immediately. The impression is a system that has been working overnight, not a blank CRM.</div>
+          <div class="demo-step-note">Target: 5-second read time before the prospect wants to click something</div>
+        </div>
+      </div>
+      <div class="demo-step">
+        <div class="demo-step-num">02</div>
+        <div>
+          <div class="demo-step-title">Run Search — The magic moment</div>
+          <div class="demo-step-desc">Click the button, watch 4 real vessel prospects animate in one by one — Galeon 420, Azimut S6, Riviera 5400, Sunseeker Predator. Each card flags competitor brand, entity owner, or upgrade profile. The lead counter increments in real time. This answers "does it actually work."</div>
+          <div class="demo-step-note">Non-negotiable: 3–4 second loading animation, sequential card entrance, no broken states</div>
+        </div>
+      </div>
+      <div class="demo-step">
+        <div class="demo-step-num">03</div>
+        <div>
+          <div class="demo-step-title">Lead Profile — How much it knows</div>
+          <div class="demo-step-desc">Click the top-scored lead (James Thornton, Galeon 420 Fly, score 92). Profile shows vessel details, owner affiliation, yacht club memberships, and the gold-border network match banner: "James Thornton and William Hartwell both appear as Board of Governors members at American Yacht Club (Rye NY) — IRS Form 990, EIN: 13-1695650."</div>
+          <div class="demo-step-note">The network match banner must fire every time — it reads from embedded data, not a live API</div>
+        </div>
+      </div>
+      <div class="demo-step">
+        <div class="demo-step-num">04</div>
+        <div>
+          <div class="demo-step-title">Connection Map — The visual differentiator</div>
+          <div class="demo-step-desc">12-node force-directed graph of clients and prospects connected by yacht club board memberships. The gold edge between Thornton and Hartwell is unmissable. Drag nodes, click to open sidebars. This is the feature that ends the conversation about whether this is just another CRM.</div>
+        </div>
+      </div>
+      <div class="demo-step">
+        <div class="demo-step-num">05</div>
+        <div>
+          <div class="demo-step-title">Vessel Activity Monitor — The trade-up engine</div>
+          <div class="demo-step-desc">5 active signals: 2 vessels listed for sale (trade-up alerts, High priority), 1 price reduction, 1 new dock lease (ownership resuming after cold period), 1 slip renewal window. Each card has a direct Reach Out action. This demonstrates the platform monitoring for signals in real time.</div>
+        </div>
+      </div>
+      <div class="demo-step">
+        <div class="demo-step-num">06</div>
+        <div>
+          <div class="demo-step-title">Boat Show Pipeline — Show ROI at a glance</div>
+          <div class="demo-step-desc">Miami and Palm Beach shows completed with contact counts, qualified leads, and signed deals. Fort Lauderdale and Newport upcoming with prep checklists and lead capture links ready. Click any show card to see the full contact list, pipeline status, and individual follow-up queue.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-eyebrow">07 — Next Steps</div>
+    <h2 class="section-title">From Demo to Live System</h2>
+    <p class="section-lead">The demo establishes the interface and the intelligence model. Moving to a production system requires four infrastructure decisions, all of which have known, well-documented solutions:</p>
+    <div class="data-list">
+      <div class="data-row">
+        <div class="data-label">Data Refresh Pipeline</div>
+        <div class="data-value">Replace embedded demo data with a weekly automated pull from USCG NVDC, YachtWorld/Boat Trader listing feeds, and ProPublica 990 API. A lightweight backend job (Node/Python, 200–400 lines) writes updated JSON to a CDN-hosted file the front end reads on load. No database required for a single-market deployment.</div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">Skip Tracing / Contact Data</div>
+        <div class="data-value">Owner phone/email not available from public vessel records. BatchData or Melissa Data skip-tracing APIs return contact info for ~85% of confirmed individual owners. Entity-owned vessels require additional resolution before skip tracing. Pricing: approximately $0.08–0.12 per record, run on leads that score above threshold.</div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">Email Delivery</div>
+        <div class="data-value">Outreach sequences in the demo are simulated. Production deployment requires a transactional email provider (Postmark, SendGrid, or Brevo) and a sending domain authenticated for Marex Boats USA. Estimated sending volume: 200–500 prospect emails/month for a single-market build.</div>
+      </div>
+      <div class="data-row">
+        <div class="data-label">Hosting & Access Control</div>
+        <div class="data-value">The current single-file build can be deployed to Vercel, Netlify, or any static host in under 10 minutes. For team access with login, a minimal auth layer (Magic Link / Clerk) can be added without restructuring the front end. No backend infrastructure required at this stage.</div>
+      </div>
+    </div>
+    <div class="callout" style="margin-top:28px;">
+      <strong>Recommended path:</strong> Ship the demo to Christopher Hughes as-is for the initial pitch conversation. If Marex wants to move forward, the next milestone is a live data refresh pipeline covering the CT/NY market, with skip-traced contact data on the 20 highest-scored prospects. Estimated build time: 3–4 weeks. Estimated data cost for initial batch: under $40.
+    </div>
+  </section>
+
+</div>
+
+<div class="doc-footer">
+  <div><strong>MAREX SALES INTELLIGENCE PLATFORM</strong><br>Strategic Brief · June 2026 · Confidential</div>
+  <div style="text-align:right;">Prepared for Christopher J. Hughes<br>President, Marex Boats USA · Greenwich CT</div>
+</div>
+
+<script>
+(function(){
+  var canvas = document.getElementById('chart-bg');
+  if(!canvas) return;
+  var ctx = canvas.getContext('2d');
+
+  function resize(){
+    var hero = canvas.parentElement;
+    canvas.width = hero.offsetWidth;
+    canvas.height = hero.offsetHeight;
+    draw();
+  }
+
+  function draw(){
+    var w = canvas.width, h = canvas.height;
+    ctx.clearRect(0, 0, w, h);
+
+    // Depth contour lines — organic sinusoidal curves
+    for(var i = 0; i < 9; i++){
+      ctx.beginPath();
+      ctx.strokeStyle = 'rgba(255,255,255,0.028)';
+      ctx.lineWidth = 1;
+      var baseY = h * (0.08 + i * 0.105);
+      var freq1 = 0.0042 + i * 0.0005;
+      var freq2 = 0.0089 + i * 0.0003;
+      var phase = i * 1.15;
+      ctx.moveTo(0, baseY);
+      for(var x = 0; x <= w; x += 4){
+        var y = baseY + Math.sin(x * freq1 + phase) * 18 + Math.sin(x * freq2 + phase * 0.7) * 8;
+        ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+    }
+
+    // Graticule — brass coordinate grid
+    ctx.lineWidth = 0.5;
+    var gs = 58;
+    for(var gx = gs; gx < w; gx += gs){
+      ctx.beginPath();
+      ctx.strokeStyle = 'rgba(184,147,74,0.10)';
+      ctx.moveTo(gx, 0); ctx.lineTo(gx, h);
+      ctx.stroke();
+    }
+    for(var gy = gs; gy < h; gy += gs){
+      ctx.beginPath();
+      ctx.strokeStyle = 'rgba(184,147,74,0.10)';
+      ctx.moveTo(0, gy); ctx.lineTo(w, gy);
+      ctx.stroke();
+    }
+
+    // Depth soundings scattered across the canvas
+    var soundings = [
+      [0.08,0.22,'18.4'],[0.19,0.61,'24.1'],[0.31,0.38,'11.8'],[0.44,0.72,'37.2'],
+      [0.52,0.18,'28.6'],[0.61,0.55,'15.3'],[0.74,0.30,'42.0'],[0.83,0.68,'19.7'],[0.93,0.41,'33.1']
+    ];
+    ctx.fillStyle = 'rgba(184,147,74,0.22)';
+    ctx.font = '10px "Courier New",monospace';
+    ctx.textAlign = 'center';
+    soundings.forEach(function(s){ ctx.fillText(s[2], s[0]*w, s[1]*h); });
+
+    // Compass rose — upper right corner, partial ring of ticks
+    var cx = w - 56, cy = 56, cr = 30;
+    for(var a = 0; a < 360; a += 22.5){
+      var rad = a * Math.PI / 180;
+      var innerR = a % 90 === 0 ? cr - 10 : (a % 45 === 0 ? cr - 7 : cr - 5);
+      ctx.beginPath();
+      ctx.strokeStyle = 'rgba(184,147,74,0.32)';
+      ctx.lineWidth = a % 90 === 0 ? 1.5 : 0.8;
+      ctx.moveTo(cx + Math.sin(rad) * innerR, cy - Math.cos(rad) * innerR);
+      ctx.lineTo(cx + Math.sin(rad) * cr,     cy - Math.cos(rad) * cr);
+      ctx.stroke();
+    }
+    ctx.font = 'bold 9px "Courier New",monospace';
+    ctx.fillStyle = 'rgba(184,147,74,0.55)';
+    ctx.textAlign = 'center';
+    ctx.fillText('N', cx, cy - cr - 9);
+    ctx.font = '8px "Courier New",monospace';
+    ctx.fillStyle = 'rgba(184,147,74,0.30)';
+    ctx.fillText('E', cx + cr + 8, cy + 3);
+    ctx.fillText('S', cx, cy + cr + 11);
+    ctx.fillText('W', cx - cr - 9, cy + 3);
+
+    // Coordinate label fragments — chart margin style
+    ctx.font = '9px "Courier New",monospace';
+    ctx.fillStyle = 'rgba(184,147,74,0.18)';
+    ctx.textAlign = 'left';
+    var coords = [
+      [12, 20, "41°08\'N  73°22\'W"],
+      [12, h-14, "40°42\'N  74°00\'W"],
+      [w*0.42, 14, "41°15\'N  73°47\'W"]
+    ];
+    coords.forEach(function(c){ ctx.fillText(c[2], c[0], c[1]); });
+  }
+
+  resize();
+  window.addEventListener('resize', function(){
+    clearTimeout(window._chartResizeTimer);
+    window._chartResizeTimer = setTimeout(resize, 80);
+  });
+})();
+</script>

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ec01",
+    "name": "William Hartwell",
+    "property_address": "18 Round Hill Rd, Greenwich CT 06831",
+    "city": "Greenwich",
+    "state": "CT",
+    "signed_date": "2025-09-15",
+    "fee_monthly": 1800,
+    "fee_annual": 21600,
+    "contract_term": 24,
+    "status": "active",
+    "property_value": 8200000,
+    "affiliations": [
+      {
+        "org": "Goldman Sachs Trust II",
+        "type": "corporate",
+        "role": "Trustee",
+        "source": "SEC EDGAR"
+      },
+      {
+        "org": "Greenwich Hospital Foundation",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      },
+      {
+        "org": "Fairfield County Community Foundation",
+        "type": "nonprofit",
+        "role": "Advisory Council",
+        "source": "IRS 990"
+      }
+    ],
+    "notes": "Referred by prior client. 3 properties in CT. Seasonal residence in Palm Beach."
+  },
+  {
+    "id": "ec02",
+    "name": "Catherine Aldridge",
+    "property_address": "45 Tokeneke Rd, Darien CT 06820",
+    "city": "Darien",
+    "state": "CT",
+    "signed_date": "2025-06-01",
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "contract_term": 12,
+    "status": "active",
+    "property_value": 3800000,
+    "affiliations": [
+      {
+        "org": "Darien Community Association",
+        "type": "nonprofit",
+        "role": "Director",
+        "source": "IRS 990"
+      },
+      {
+        "org": "Noroton Presbyterian Church Foundation",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      }
+    ],
+    "notes": "Spends June\u2013September in Nantucket. Renovating kitchen and primary bath."
+  },
+  {
+    "id": "ec03",
+    "name": "Robert Pemberton",
+    "property_address": "7 Old Farm Rd, New Canaan CT 06840",
+    "city": "New Canaan",
+    "state": "CT",
+    "signed_date": "2025-03-10",
+    "fee_monthly": 3600,
+    "fee_annual": 43200,
+    "contract_term": 36,
+    "status": "active",
+    "property_value": 12500000,
+    "affiliations": [
+      {
+        "org": "New Canaan Land Trust",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      },
+      {
+        "org": "BlackRock Inc",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      },
+      {
+        "org": "Yale School of Management Board of Advisors",
+        "type": "nonprofit",
+        "role": "Member",
+        "source": "IRS 990"
+      }
+    ],
+    "notes": "Highest-value client. Three-property portfolio (New Canaan, Aspen, Harbour Island). Needs vendor coordination across all sites."
+  },
+  {
+    "id": "ec04",
+    "name": "Margaret Winthrop",
+    "property_address": "22 Heather Dr, Scarsdale NY 10583",
+    "city": "Scarsdale",
+    "state": "NY",
+    "signed_date": "2024-11-20",
+    "fee_monthly": 1000,
+    "fee_annual": 12000,
+    "contract_term": 12,
+    "status": "active",
+    "property_value": 4500000,
+    "affiliations": [
+      {
+        "org": "Westchester Medical Center Foundation",
+        "type": "nonprofit",
+        "role": "Trustee",
+        "source": "IRS 990"
+      },
+      {
+        "org": "Purchase College Foundation",
+        "type": "nonprofit",
+        "role": "Board Member",
+        "source": "IRS 990"
+      }
+    ],
+    "notes": "Travels to Europe March\u2013May. Seasonal HVAC service scheduled. Referred two neighbors."
+  },
+  {
+    "id": "ec05",
+    "name": "James Thornton",
+    "property_address": "3 Pecksland Rd, Greenwich CT 06831",
+    "city": "Greenwich",
+    "state": "CT",
+    "signed_date": "2024-08-05",
+    "fee_monthly": 600,
+    "fee_annual": 7200,
+    "contract_term": 12,
+    "status": "active",
+    "property_value": 5200000,
+    "affiliations": [
+      {
+        "org": "Greenwich United Way",
+        "type": "nonprofit",
+        "role": "Campaign Chair",
+        "source": "IRS 990"
+      },
+      {
+        "org": "Deloitte LLP",
+        "type": "corporate",
+        "role": "Named in Proxy Filing",
+        "source": "SEC EDGAR"
+      }
+    ],
+    "notes": "Family of 4. Two primary school-age children. Annual exterior painting, gutter cleaning on schedule."
+  }
+]
